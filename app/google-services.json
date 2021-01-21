@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "81129286779",
+    "project_id": "fishing-crunch",
+    "storage_bucket": "fishing-crunch.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81129286779:android:35984caa0171d4d547c6de",
+        "android_client_info": {
+          "package_name": "com.fishingcrunch.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "81129286779-67fg3ei5hj11cu9efg70eof7e6seol1n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXQTvd_YhFsid5P3SBVAPGl2i5Zhq8szc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "81129286779-67fg3ei5hj11cu9efg70eof7e6seol1n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

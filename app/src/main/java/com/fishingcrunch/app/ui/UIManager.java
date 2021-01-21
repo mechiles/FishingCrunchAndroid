@@ -1,4 +1,4 @@
-package com.develatio.androidpwawrapper.ui;
+package com.fishingcrunch.app.ui;
 
 import android.app.Activity;
 import android.app.ActivityManager;
@@ -14,8 +14,8 @@ import android.webkit.WebView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 
-import com.develatio.androidpwawrapper.Constants;
-import com.develatio.androidpwawrapper.R;
+import com.fishingcrunch.app.Constants;
+import com.fishingcrunch.app.R;
 
 public class UIManager {
     // Instance variables

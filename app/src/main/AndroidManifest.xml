@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.develatio.androidpwawrapper">
+    package="com.fishingcrunch.app">
     <!-- Necessary permissions -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -22,7 +22,7 @@
         tools:targetApi="n"
         android:icon="@mipmap/ic_launcher_round"
         android:roundIcon="@mipmap/ic_launcher_round">
-        <activity android:name="com.develatio.androidpwawrapper.MainActivity"
+        <activity android:name="com.fishingcrunch.app.MainActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:theme="@style/AppTheme.Launch">
             <intent-filter>

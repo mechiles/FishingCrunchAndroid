@@ -1,14 +1,15 @@
-package com.develatio.androidpwawrapper;
+package com.fishingcrunch.app;
 
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Build;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.webkit.WebChromeClient;
 
-import com.develatio.androidpwawrapper.ui.UIManager;
-import com.develatio.androidpwawrapper.webview.WebViewHelper;
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.fishingcrunch.app.ui.UIManager;
+import com.fishingcrunch.app.webview.WebViewHelper;
 
 public class MainActivity extends AppCompatActivity {
     private WebViewHelper webViewHelper;

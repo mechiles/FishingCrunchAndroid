@@ -1,4 +1,4 @@
-package com.develatio.androidpwawrapper.webview;
+package com.fishingcrunch.app.webview;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -14,7 +14,6 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Handler;
 import android.os.Message;
-import android.support.annotation.NonNull;
 import android.webkit.CookieManager;
 import android.webkit.JavascriptInterface;
 import android.webkit.ValueCallback;
@@ -26,9 +25,11 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
 
-import com.develatio.androidpwawrapper.Constants;
-import com.develatio.androidpwawrapper.R;
-import com.develatio.androidpwawrapper.ui.UIManager;
+import androidx.annotation.NonNull;
+
+import com.fishingcrunch.app.ui.UIManager;
+import com.fishingcrunch.app.Constants;
+import com.fishingcrunch.app.R;
 
 public class WebViewHelper {
     // Instance variables

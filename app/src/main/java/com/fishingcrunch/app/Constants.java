@@ -1,10 +1,10 @@
-package com.develatio.androidpwawrapper;
+package com.fishingcrunch.app;
 
 public class Constants {
     public Constants(){}
     // Root page
-    public static final String WEBAPP_URL = "https://develat.io";
-    public static final String WEBAPP_HOST = "develat.io"; // used for checking Intent-URLs
+    public static final String WEBAPP_URL = "https://www.fishingcrunch.com";
+    public static final String WEBAPP_HOST = "fishingcrunch.com"; // used for checking Intent-URLs
     public static final String APP_VERSION = "AndroidApp/" + BuildConfig.VERSION_NAME;
 
 	// Constants
