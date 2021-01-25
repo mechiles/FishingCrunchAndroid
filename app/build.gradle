@@ -3,6 +3,18 @@ apply plugin: 'com.google.gms.google-services'
 
 android {
     signingConfigs {
+    debug {
+        storeFile file('/Users/mchiles/Documents/Key Store/upload-keystore.jks')
+        storePassword 'T3chn0l0gy!'
+        keyAlias 'upload'
+        keyPassword 'T3chn0l0gy!'
+    }
+        release {
+            storeFile file('/Users/mchiles/Documents/Key Store/upload-keystore.jks')
+            storePassword 'T3chn0l0gy!'
+            keyAlias 'upload'
+            keyPassword 'T3chn0l0gy!'
+        }
     }
     compileSdkVersion 30
     buildToolsVersion '30.0.3'
@@ -12,6 +24,7 @@ android {
         targetSdkVersion 30
         versionName '1.1.0'
         versionCode = 6
+        signingConfig signingConfigs.release
     }
     buildTypes {
         release {
